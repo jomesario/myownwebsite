@@ -1,0 +1,31 @@
+{
+  "name": "josemarioespinoza.hopto.org",
+  "version": "1.0.0",
+  "description": "My own personal WebSite for CV",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "CV",
+    "jose",
+    "mario",
+    "espinoza"
+  ],
+  "author": "Jose Espinoza",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomesario/myownwebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jomesario/myownwebsite/issues"
+  },
+  "homepage": "https://github.com/jomesario/myownwebsite#readme"
+}
