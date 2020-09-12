@@ -46,7 +46,7 @@ $(function() {
           $('#success').html("<div class='alert alert-danger'>");
           $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-          $('#success > .alert-danger').append($("<strong>").text("Sorry " + firstName + ", it seems that my mail server is not responding. You can email me at jomesario1@gmail.com!"));
+          $('#success > .alert-danger').append($("<strong>").text("Disculpa " + firstName + ", parece que mi servidor de correos está fallando, puedes enviarme un correo a oespinr@hotmail.com o un whatsapp al número (668) 144 2351!"));
           $('#success > .alert-danger').append('</div>');
           //clear all fields
           $('#contactForm').trigger("reset");

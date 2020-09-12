@@ -380,3 +380,32 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  padding:5px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding:5px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  float:center;
+}
+
+div.galley a{
+  padding:5px;
+  margin:5px;
+}
